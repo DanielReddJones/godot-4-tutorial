@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://bado5yhloid07"]
 
 [ext_resource type="Texture2D" uid="uid://cxktgqdptni2r" path="res://graphics/spaceship.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://c0sytg630rt42" path="res://scenes/player.gd" id="1_g2els"]
 
 [node name="Player" type="Node2D" unique_id=1734544437]
+script = ExtResource("1_g2els")
 
 [node name="PlayerImage" type="Sprite2D" parent="." unique_id=874727717]
 texture = ExtResource("1_3vyb7")
